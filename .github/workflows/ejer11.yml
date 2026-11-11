@@ -1,7 +1,7 @@
 name: ejercio_11
   on:
     push:
-      branches: [main]
+      branches: [ main ]
   
   jobs:
   mostrar_hola:
