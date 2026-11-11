@@ -1,13 +1,13 @@
 name: ejercio_11
-  on:
-    push:
-      branches: [ main ]
+on:
+  push:
+    branches: [ main ]
   
-  jobs:
+jobs:
   mostrar_hola:
     run-on: ubuntu-26.04
     steps:
-      - name: escribir hola en bash 
+    - name: escribir hola en bash 
       run: bash ./script1.sh
       
     
