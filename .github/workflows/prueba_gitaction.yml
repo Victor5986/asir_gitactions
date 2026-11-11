@@ -14,5 +14,6 @@ jobs:
   version_java:
     runs-on: ubuntu-latest
     steps:
-      - name: version de java 
-      run: java --version
+    - name: version de java 
+      run:
+        java --version
