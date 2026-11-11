@@ -11,4 +11,8 @@ jobs:
         echo "hola" 
         echo "hoy es:" 
         date 
-  
+  version_java:
+    runs-on: ubuntu-latest
+    steps:
+      -name: version de java 
+      run: java --version
