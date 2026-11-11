@@ -5,7 +5,7 @@ on:
   
 jobs:
   mostrar_hola:
-    run-on: ubuntu-26.04
+    runs-on: ubuntu-26.04
     steps:
     - name: escribir hola en bash 
       run: bash ./script1.sh
