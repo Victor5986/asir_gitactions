@@ -10,6 +10,8 @@ jobs:
     - name: descargar repositorio
       uses: actions/checkout@v5
     - name: escribir hola en bash 
-      run: bash ./script1.sh
+      run: | 
+        pwd 
+        bash ./script1.sh
       
     
