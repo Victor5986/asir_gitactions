@@ -8,5 +8,6 @@ jobs:
     steps:
     - name: Escribir hola 
       run:| echo "hola" 
-            echo "hoy es:" date 
+            echo "hoy es:" 
+            date 
   
