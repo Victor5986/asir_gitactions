@@ -12,6 +12,6 @@ jobs:
     - name: escribir hola en bash 
       run: | 
         pwd 
-        bash ./script1.sh
+        bash ./src/script1.sh
       
     
