@@ -1,0 +1,27 @@
+name: ejerccio_12 
+on: 
+   push:
+     #branches: [ main ]
+  
+  jobs:
+    mostrar_hola:
+      runs-on: ubuntu-latest
+      steps:
+        - name: descargar_repositorio
+          uses: actions/checkout@v5
+        
+        - name: crear carpeta backup 
+          run:
+            mkdir backup 
+        
+        - name: crear zip comprimido 
+          run: zip -r backup/bakup_datos.zip datos 
+        
+        - name: subir_artefacto
+          uses: actions/upload-artifact@v5
+        
+          
+    
+  
+      
+      
